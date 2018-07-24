@@ -1,0 +1,16 @@
+---
+applications:
+- name: my-config-server
+  path: ./ConfigServer-0.0.1-SNAPSHOT.jar
+  env:
+    spring.profiles.active: 
+    spring.cloud.config.server.vault.host:
+    spring.cloud.config.server.vault.port:
+    spring.cloud.config.server.vault.scheme:
+    spring.cloud.config.server.vault.order:
+    spring.cloud.config.server.git.uri:
+    spring.cloud.config.server.git.skipSslValidation:
+    spring.cloud.config.server.git.order:
+    spring.cloud.config.server.git.username:
+    spring.cloud.config.server.git.password:
+    
